@@ -10,7 +10,7 @@ namespace TeletHoney
     {
         static void Main(string[] args)
         {
-            Server server = new Server("0.0.0.0", "Welcome to the National Security Agency Remote Terminal\r\nAll activity is logged on our MainFrame\r\n\r\n");
+            Server server = new Server("0.0.0.0", "Welcome to the National Security Agency Remote Terminal\r\n");
             Process.GetCurrentProcess().WaitForExit();
         }
     }
